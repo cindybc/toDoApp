@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>To Do App</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -18,12 +19,29 @@
   <section class="container">
   	 <div class="row">
   	 	<div class="col s12">
-  	 		<textarea id="tarea" placehorder="Ingresa tu tarea" cols="30" rows="10"></textarea>
+  	 		<textarea id="ingresaTarea" placeholder="Ingresa tu tarea" cols="30" rows="10"></textarea>
+  	 		<button type="button" class="btn"><i class="material-icons left">add</i>Agregar</button>
   	 	</div>
   	 </div>
   	 <div class="row">
   	 	<div class="col s12">
   	 		<h5>To Do Items:</h5>
+  	 	</div>
+  	 </div>
+  	 <div class="row">
+  	 	<div class="col s12">
+  	 		<div id="agregarTarea"></div>
+  	 	</div>
+  	 </div>
+  	 <hr>
+  	 <div class="row">
+  	 	<div class="col s12">
+  	 		<h5>Completed Items:</h5>
+  	 	</div>
+  	 </div>
+  	  <div class="row">
+  	 	<div class="col s12">
+  	 		<div id="completaTarea"></div>
   	 	</div>
   	 </div>
   </section>
