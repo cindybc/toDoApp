@@ -1,0 +1,16 @@
+body{
+	background-color: whitesmoke;
+}
+
+nav{
+	background-color: #f7b617;
+}
+nav .brand-logo{
+	color: black;
+}
+.container{
+	margin: 15% 15%;
+    padding: 3%;
+    background-color: #fff;
+
+}
