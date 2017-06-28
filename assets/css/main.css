@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-	background-color: #f7b617;
+	background-color: #26a69a;
 }
 nav .brand-logo{
 	color: black;
@@ -12,5 +12,12 @@ nav .brand-logo{
 	margin: 8% 15%;
     padding: 3%;
     background-color: #fff;
+}
 
+[type="checkbox"]+label{
+	display: inline;
+}
+
+.nuevo{
+	padding: 10px 0;
 }

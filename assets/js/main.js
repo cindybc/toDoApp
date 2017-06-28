@@ -4,9 +4,15 @@ $(document).ready(function(){
 		var tarea= $("#ingresaTarea").val();
 		if(tarea == ""){
 			alert("Debes ingresar una tarea");
-		}else{
-			var contenido ='<div><input type="checkbox" class="filled-in" id="box"/><label for="box"></label>' + tarea + '</div>';
-			$('#agregarTarea').append(contenido);
+			 return false;
 		}
+
+		var contenido ='<div class="nuevo"><input type="checkbox" class="filled-in" id="box"/><label for="box"></label>' + tarea + '<button class="btn right botoncito">Remove</button></div>';
+		$('#agregarTarea').append(contenido);
+		$("#ingresaTarea").val("");
+	
+		$(document).on('click', '.botoncito', function(){
+			$(this).parent().remove();
+		})
 	});
 });
