@@ -19,3 +19,6 @@ nav{
 .nuevo{
 	padding: 10px 0;
 }
+.strike{
+	text-decoration: line-through;
+}
