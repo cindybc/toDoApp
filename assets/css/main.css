@@ -5,9 +5,7 @@ body{
 nav{
 	background-color: #26a69a;
 }
-nav .brand-logo{
-	color: black;
-}
+
 .container{
 	margin: 8% 15%;
     padding: 3%;
